@@ -140,30 +140,6 @@ pre p span{
     
 }
 
-
-img{
-    margin-left: 2rem;
-    border-radius: 50%;
-}
-
-table{
-    margin-top: 1rem;
-    display:flex;
-    justify-content: center;
-    padding:10px;
-    font-size: 30px;
-    border-collapse: collapse;
-}
-
-
-td{
-    border: 2px solid rgb(238, 238, 238);
-}
-
-.checkmark{
-    background-color:#819171;
-}
-
 #pear{
     transition: transform 0.2s ease-in;
 }
