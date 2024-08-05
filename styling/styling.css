@@ -1,0 +1,174 @@
+/* General page CSS styling */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color:aliceblue;
+}
+
+body{
+    background-color: #B1B795;
+}
+
+/*hero section for website*/
+#hero{
+    /* create background image */
+    background-image: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.3) 100%
+      ),url("../assets/pear.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* cover 90% of the viewport */
+    height:90vh;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    padding:20px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+
+ul li:nth-child(2){
+    margin-left:auto;
+}
+
+ul li:not(:first-child){
+    font-weight: 400;
+    font-size: 25px;
+    background-color: rgba(139, 167, 155, 0);
+    padding:10px;
+    height:4rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in;
+}
+
+ul li:not(:first-child):hover{
+    background-color: rgba(139, 167, 155, 1);
+}
+
+ul li:first-child a{
+    font-family: "Hi Melody", sans-serif;
+    font-size: 96px;
+}
+
+a{
+    text-decoration: none;
+}
+
+span.pear{
+    font-family: "Hi Melody", sans-serif;
+    font-size:60px;
+}
+
+pre{
+    margin-left: 3rem;
+    margin-top: 5rem;
+}
+
+pre p{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+pre p span{
+    font-size:38px;
+    font-weight: 500;
+}
+
+#services div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+}
+
+.icon{
+    transform: scale(2);
+}
+
+#information{
+    margin-top: 5rem;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+#why-our-pear, #testimonials{
+    font-family: "Headland One", serif;
+    font-size: 74px;
+    font-weight: 400;
+    margin-left: 4rem;
+    width:33vw;
+    padding:10px;
+    border-bottom: 1px solid aliceblue;
+}
+
+#testimonials{
+    text-align: center;
+}
+
+.text-container, #testimonials + div{
+    display:flex;
+    flex-direction: column;
+    margin-left:4rem;
+    padding:10px;
+    font-size: 35px;
+    font-weight: 350;
+    gap:20px;
+}
+
+#testimonials + div{
+    font-weight: 500;
+}
+
+.star{
+    padding-left: 20rem;
+    margin-bottom: 2rem;
+    
+}
+
+
+img{
+    margin-left: 2rem;
+    border-radius: 50%;
+}
+
+table{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    font-size: 30px;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: 2px solid rgb(238, 238, 238);
+}
+
+.checkmark{
+    background-color:#819171;
+}
+
+#pear{
+    transition: transform 0.2s ease-in;
+}
+
+#pear:hover{
+    transform: scale(1.1);
+}
+
