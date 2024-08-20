@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     color:aliceblue;
+    /* border: 1px solid red; */
 }
 
 body{
@@ -24,6 +25,9 @@ body{
     /* cover 90% of the viewport */
     height:90vh;
 }
+
+
+
 
 ul{
     display: flex;
@@ -146,5 +150,9 @@ pre p span{
 
 #pear:hover{
     transform: scale(1.1);
+}
+
+.iconP:hover{
+    cursor: pointer;
 }
 
