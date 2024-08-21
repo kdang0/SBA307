@@ -102,6 +102,11 @@ pre p span{
 
 .icon{
     transform: scale(2);
+    transition: transform 0.2s ease-in;
+}
+
+.icon:hover{
+    transform: scale(3);
 }
 
 #information{

@@ -1,5 +1,7 @@
 const servicePanel = document.querySelector("#serviceInfo");
 const serviceIcons = document.querySelectorAll('.iconP');
+const lastServiceOption = document.querySelector('#serviceInfo').lastElementChild;
+let el = lastServiceOption.firstElementChild;
 servicePanel.addEventListener('click', (e)=> {
     console.log(`CLICKED ${e.target}`);
     if(e.target.id === "location"){
@@ -20,13 +22,22 @@ serviceIcons.forEach((icon) => {
         case 'shipping':
             icon.style.color="#a6dbbc";
             break;
-        case 'delivery':
-            icon.style.color="#8fb6ab";
-            break;
         default:
             return;
     }
 });
+
+
+//Accessing element using parent-child-sibling relationship
+while(el){
+    console.log(el);
+    if(el.classList.contains('icon')){
+        console.log("TRUE");
+        el.firstElementChild.style.color="#ccefcc";
+    }
+    el = el.nextElementSibling;
+}
+
 
 
 
