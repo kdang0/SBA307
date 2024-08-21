@@ -15,29 +15,31 @@
     <title>registration</title>
   </head>
   <body>
-    <h1 id="pear">
-      <a href="index.html">p<span class="pear">e</span>ar</a>
-    </h1>
-    <form id="registration" action="submit">
-      <h2>Register</h2>
-      <label for="email">email</label>
-      <input type="text" name="email" id="email" required minlength="4"/>
-      <br />
-      <label for="password">password</label>
-      <input type="text" name="password" id="password" required minlength="5"/>
-      <br />
-      <label for="question">Favorite Color</label>
-      <select name="question" id="question" required>
-        <option value="0">Purple</option>
-        <option value="1">Magenta</option>
-        <option value="2">Blue</option>
-        <option value="3">Turquoise</option>
-        <option value="4">Red</option>
-      </select>
-      <div>
-        <button>register</button>
-      </div>
-    </form>
+    <div id="formContainer">
+      <h1 id="pear">
+        <a href="index.html">p<span class="pear">e</span>ar</a>
+      </h1>
+      <form id="registration" action="submit">
+        <h2>Register</h2>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" required minlength="4"/>
+        <br />
+        <label for="password">password</label>
+        <input type="password" name="password" id="password" required minlength="5"/>
+        <br />
+        <label for="question">Favorite Color</label>
+        <select name="question" id="question" required>
+          <option value="0">Purple</option>
+          <option value="1">Magenta</option>
+          <option value="2">Blue</option>
+          <option value="3">Turquoise</option>
+          <option value="4">Red</option>
+        </select>
+        <div>
+          <button>register</button>
+        </div>
+      </form>
+    </div>
     <div id="app"></div>
   </body>
 </html>

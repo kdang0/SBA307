@@ -53,6 +53,7 @@ const createUserPanel = (email, password, color) => {
     const heading = frag.appendChild(document.createElement("h3"));
     heading.textContent = "User Information";
     heading.style.margin = "0px";
+    heading.style.textAlign="center";
     frag.appendChild(document.createElement("hr"));
 
     const div = frag.appendChild(document.createElement("div"));

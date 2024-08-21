@@ -15,13 +15,13 @@ servicePanel.addEventListener('click', (e)=> {
 serviceIcons.forEach((icon) => {
     switch(icon.id){
         case 'location':
-            icon.style.color="red";
+            icon.style.color="#b7cc9d";
             break;
         case 'shipping':
-            icon.style.color="blue";
+            icon.style.color="#a6dbbc";
             break;
         case 'delivery':
-            icon.style.color="green";
+            icon.style.color="#8fb6ab";
             break;
         default:
             return;
