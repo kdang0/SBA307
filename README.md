@@ -41,4 +41,21 @@ Website for selling pears!
 
 [GITHUB ACCOUNT](https://github.com/kdang0)
 
+# SBA 316 Requirements
+*See javascript folder for these implementations*
+* Cached form in registration page using selectElementById
+* Cached servicePanel in home page using querySelector
+* Used parent-child-sibling relationship to navigate to last service icon in home page
+* Iterated over service panel to change colors of the icons in home page
+* Created a div using createElement when the user finishes registering (displays user information panel) in registration page
+* Appended a h3 tag and p tags onto the div when user finishes registering (displays user information panel) in registration page
+* Used a DocumentFragment to create user information panel in registration page
+* Modified text content when building User Information Panel in registration page
+* Modified name attribute to serviceIcon when iterating through the list of elements containing classname "iconP"
+* Modified the color of service icons whenever a user clicks on the service icon in home page
+* Registered an event listener of click in the home page (index.js) and an event listener of submit in the registration page (registration.js)
+* Created a window.alert in registration page and created window.open in home page
+* HTML form validation can be found in registration.js
+* DOM event-based validation can be found in registration.js
+  
         
